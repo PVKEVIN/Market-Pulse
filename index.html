@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Market Pulse — Where Every Budget Counts.</title>
+    <meta name="description" content="Market Pulse turns marketing data into smarter decisions. Explainable AI strategy, campaign intelligence, and content creation. Where Every Budget Counts." />
+    <meta property="og:title" content="Market Pulse — Where Every Budget Counts." />
+    <meta property="og:description" content="Market Pulse turns marketing data into smarter decisions. Explainable AI strategy, campaign intelligence, and content creation. Where Every Budget Counts." />
+    <meta property="og:type" content="website" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Plus+Jakarta+Sans:wght@500;600;700;800&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+    <script>
+      // Compatibility patch for browser extensions that overwrite window.fetch
+      (function() {
+        try {
+          var _f = window.fetch;
+          Object.defineProperty(window, 'fetch', {
+            get: function() { return _f; },
+            set: function(val) { _f = val; },
+            configurable: true,
+            enumerable: true
+          });
+        } catch (e) {
+          try {
+            var proto = Object.getPrototypeOf(window);
+            if (proto) {
+              var _pf = window.fetch;
+              Object.defineProperty(proto, 'fetch', {
+                get: function() { return _pf; },
+                set: function(val) { _pf = val; },
+                configurable: true,
+                enumerable: true
+              });
+            }
+          } catch (e2) {}
+        }
+      })();
+    </script>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
+
